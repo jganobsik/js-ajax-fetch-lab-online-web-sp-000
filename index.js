@@ -1,5 +1,5 @@
 const githubURL = 'https://api.github.com';
-const user = 'learn-co-curriculum';
+const user = 'jganobsik';
 function getToken() {
   //change to your token to run in browser, but set
   //back to '' before committing so all tests pass
