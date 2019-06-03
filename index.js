@@ -1,3 +1,5 @@
+const githubURL = 'https://api.github.com';
+
 function getToken() {
   //change to your token to run in browser, but set
   //back to '' before committing so all tests pass
@@ -6,7 +8,7 @@ function getToken() {
 
 function forkRepo() {
   const repo = 'learn-co-curriculum/js-ajax-fetch-lab';
-  const url = `${baseURL}/repos/${repo}/forks`;
+  const url = `${githubURL}/repos/${repo}/forks`;
   fetch(url, {
     method: 'POST',
     headers: {
